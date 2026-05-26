@@ -30,7 +30,7 @@ const services = [
     description:
       "High-quality LED wall and display setup for weddings, stage shows and live events.",
     image: "/images/services/ledwall.webp",
-    link: "/services/led-display-setup",
+    link: "/services/led-wall-display-setup",
   },
   {
     title: "Professional DJ Setup",
@@ -50,8 +50,31 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="relative overflow-hidden py-20 text-white">
+    <section className="relative overflow-hidden py-12 text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Section Heading */}
+<div className="mx-auto max-w-3xl text-center">
+
+  <div className="mb-4 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm backdrop-blur-md">
+    Our Services
+  </div>
+
+  <h2 className="text-4xl font-extrabold leading-tight sm:text-5xl">
+
+    Premium DJ & Sound
+    <span className="block bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+      by Anil DJ & Events
+    </span>
+
+  </h2>
+
+  <p className="mt-6 text-sm leading-relaxed text-gray-400 sm:text-base">
+    Explore professional DJ setups, wedding sound systems,
+    LED displays, event management and equipment rental
+    services.
+  </p>
+
+</div>
 
         {/* Services Grid */}
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

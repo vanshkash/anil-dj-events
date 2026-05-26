@@ -1,6 +1,11 @@
 // src/components/server/GallerySection.js
 
 import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const GalleryLightbox = dynamic(
+  () => import("@/components/client/GalleryLightbox")
+);
 
 const galleryImages = [
   {
@@ -53,7 +58,7 @@ export default function GallerySection() {
   return (
     <section className="relative overflow-hidden py-12 text-white">
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
@@ -78,35 +83,17 @@ export default function GallerySection() {
         </div>
 
         {/* Gallery Grid */}
-        <div className="mt-16 grid auto-rows-[180px] grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-16 grid auto-rows-[130px] grid-cols-2 gap-2 sm:auto-rows-[180px] sm:gap-4 sm:grid-cols-3 lg:grid-cols-4">
 
           {galleryImages.map((item, index) => (
-            <div
-              key={index}
-              className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl ${item.className}`}
-            >
-
-              {/* Image */}
-              <Image
-                src={item.image}
-                alt={`Anil DJ Events Gallery ${index + 1}`}
-                fill
-                priority={index === 0}
-                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                className="object-cover transition duration-700 group-hover:scale-110"
-              />
-
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-80 transition duration-500 group-hover:opacity-100" />
-
-              {/* Hover Glow */}
-              <div className="absolute inset-0 opacity-0 transition duration-500 group-hover:opacity-100">
-
-                <div className="absolute bottom-0 left-0 h-32 w-32 rounded-full bg-purple-500/20 blur-3xl" />
-
-              </div>
-
-            </div>
+            <GalleryLightbox
+  key={index}
+  images={galleryImages}
+  image={item.image}
+  alt={`Anil DJ Events Gallery ${index + 1}`}
+  className={item.className}
+  index={index}
+/>
           ))}
 
         </div>

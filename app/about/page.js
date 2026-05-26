@@ -1,6 +1,7 @@
 // app/about/page.js
 
 import AboutSection from "@/components/server/AboutSection";
+import PageTransition from "@/components/client/PageTransition";
 
 export const metadata = {
   title:
@@ -71,6 +72,8 @@ export const metadata = {
 
 export default function About() {
   return (
-    <AboutSection />
+    <PageTransition>
+      <AboutSection />
+    </PageTransition>
   );
 }

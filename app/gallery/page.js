@@ -1,6 +1,7 @@
 // /app/gallery/page.js
 
 import GallerySection from "@/components/server/GallerySection";
+import PageTransition from "@/components/client/PageTransition";
 
 export const metadata = {
   title:
@@ -74,7 +75,9 @@ export const metadata = {
 export default function GalleryPage() {
   return (
     <main className="relative overflow-hidden text-white">
-      <GallerySection />
+      <PageTransition>
+        <GallerySection />
+      </PageTransition>
     </main>
   );
 }

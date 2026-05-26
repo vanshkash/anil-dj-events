@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import PageTransition from "@/components/client/PageTransition";
 
 const rentalServices = [
   {
@@ -10,7 +11,7 @@ const rentalServices = [
   },
   {
     title: "Professional Mixers",
-    image: "/images/services/cards/mixer.jfif",
+    image: "/images/services/cards/mixer.webp",
   },
   {
     title: "Sound System Rental",
@@ -92,6 +93,7 @@ export const metadata = {
 
 export default function EquipmentRentalPage() {
   return (
+    <PageTransition>
     <main className="relative overflow-hidden bg-neutral-950 text-white">
 
       {/* Glow Effects */}
@@ -100,7 +102,7 @@ export default function EquipmentRentalPage() {
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-24">
+      <section className="relative overflow-hidden py-6">
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
@@ -265,5 +267,6 @@ export default function EquipmentRentalPage() {
       </section>
 
     </main>
+    </PageTransition>
   );
 }

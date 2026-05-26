@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import PageTransition from "@/components/client/PageTransition";
 
 const wheelServices = [
   {
     title: "Wedding Barat DJ",
-    image: "/images/services/cards/wheels1.jfif",
+    image: "/images/services/cards/wheels1.webp",
   },
   {
     title: "Luxury DJ Trolley",
@@ -91,6 +92,7 @@ export const metadata = {
 
 export default function DjOnWheelsPage() {
   return (
+    <PageTransition>
     <main className="relative overflow-hidden bg-neutral-950 text-white">
 
       {/* Glow Effects */}
@@ -99,7 +101,7 @@ export default function DjOnWheelsPage() {
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-24">
+      <section className="relative overflow-hidden py-6">
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
@@ -123,13 +125,13 @@ export default function DjOnWheelsPage() {
 
               <p className="mt-7 max-w-2xl text-sm leading-relaxed text-gray-400 sm:text-base">
 
-                Experience high-energy DJ On Wheels services with
-                powerful bass systems, luxury DJ trolley setups,
-                LED lighting and unforgettable barat vibes for weddings,
-                parties and grand celebrations across Hapur, Noida,
-                Ghaziabad, Delhi and NCR.
+  Anil DJ & Events provides high-energy DJ On Wheels services with
+  powerful bass systems, luxury DJ trolley setups,
+  LED lighting and unforgettable barat vibes for weddings,
+  parties and grand celebrations across Hapur, Noida,
+  Ghaziabad, Delhi and NCR.
 
-              </p>
+</p>
 
               {/* Features */}
               <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -200,7 +202,7 @@ export default function DjOnWheelsPage() {
 
                 <Image
                   src="/images/services/card-djonwheels.webp"
-                  alt="DJ On Wheels Service"
+                  alt="Anil DJ & Events DJ On Wheels service in Hapur"
                   width={900}
                   height={700}
                   className="h-full w-full object-cover"
@@ -232,9 +234,9 @@ export default function DjOnWheelsPage() {
 
             <h2 className="text-4xl font-extrabold leading-tight sm:text-5xl">
 
-              Premium DJ
+              Premium Barat Entertainment
               <span className="block bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-                Entertainment Setup
+                by Anil DJ & Events
               </span>
 
             </h2>
@@ -284,5 +286,6 @@ export default function DjOnWheelsPage() {
       </section>
 
     </main>
+    </PageTransition>
   );
 }

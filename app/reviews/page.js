@@ -1,6 +1,7 @@
 // src/app/reviews/page.js
 
 import ReviewsSection from "@/components/server/ReviewsSection";
+import PageTransition from "@/components/client/PageTransition";
 
 export const metadata = {
   title:
@@ -71,6 +72,8 @@ export const metadata = {
 
 export default function ReviewsPage() {
   return (
-    <ReviewsSection />
+    <PageTransition>
+      <ReviewsSection />
+    </PageTransition>
   );
 }

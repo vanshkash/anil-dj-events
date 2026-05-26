@@ -143,9 +143,9 @@ export default function AboutSection() {
           </div>
 
           {/* Floating Card */}
-          <div className="absolute -bottom-6 -left-6 rounded-3xl border border-white/10 bg-black/70 p-5 backdrop-blur-xl">
+          <div className="absolute -bottom-6 -left-6 rounded-3xl border border-white/10 bg-black/70 p-3 backdrop-blur-xl">
 
-            <h3 className="text-3xl font-extrabold text-white">
+            <h3 className="text-2xl font-extrabold text-white">
               25+
             </h3>
 

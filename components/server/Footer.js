@@ -194,7 +194,7 @@ export default function Footer() {
   </a>
 
   <a
-    href="tel:+919999999999"
+    href="tel:+919837754630"
     className="ml-3 inline-block text-sm text-gray-400 transition hover:text-white"
   >
     +91 9837754630

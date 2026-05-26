@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import PageTransition from "@/components/client/PageTransition";
 
 const weddingServices = [
   {
@@ -92,6 +93,7 @@ export const metadata = {
 
 export default function WeddingDjSoundPage() {
   return (
+    <PageTransition>
     <main className="relative overflow-hidden bg-neutral-950 text-white">
 
       {/* Glow Effects */}
@@ -100,7 +102,7 @@ export default function WeddingDjSoundPage() {
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-blue-600/20 blur-3xl" />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-24">
+      <section className="relative overflow-hidden py-6">
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
@@ -264,5 +266,6 @@ export default function WeddingDjSoundPage() {
       </section>
 
     </main>
+    </PageTransition>
   );
 }

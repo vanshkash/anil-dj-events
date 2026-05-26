@@ -33,12 +33,14 @@ export default function HeroSection() {
 
           <div className="mt-8 flex flex-col gap-4 md:mt-10 md:flex-row md:items-center md:justify-center">
 
-            <Link
-              href="/contact"
+            <a
+              href="https://wa.me/918923426667"
+                target="_blank"
+                rel="noopener noreferrer"
               className="rounded-full bg-gradient-to-r from-purple-600 to-blue-500 px-8 py-4 text-sm font-semibold text-white transition hover:scale-105 md:text-base"
             >
               Book Now
-            </Link>
+            </a>
 
             <Link
               href="/gallery"

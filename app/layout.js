@@ -103,7 +103,7 @@ export default function RootLayout({ children }) {
       data-scroll-behavior="smooth"
     >
       <body
-        className={`${geist.className} overflow-x-hidden bg-neutral-950 text-white antialiased`}
+        className={`${geist.className} overflow-x-hidden pt-[69px] bg-neutral-950 text-white antialiased`}
       >
         {/* Global Background Glow */}
         <div className="fixed left-0 top-0 h-96 w-96 rounded-full bg-purple-600/20 blur-3xl" />

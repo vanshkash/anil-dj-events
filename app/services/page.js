@@ -1,6 +1,7 @@
 // src/app/services/page.js
 
 import ServicesSection from "@/components/server/ServicesSection";
+import PageTransition from "@/components/client/PageTransition";
 
 export const metadata = {
   title:
@@ -84,7 +85,9 @@ export default function ServicesPage() {
       <div className="absolute right-0 top-[40%] h-96 w-96 rounded-full bg-blue-500/10 blur-3xl" />
 
       <div className="relative z-10">
-        <ServicesSection />
+        <PageTransition>
+          <ServicesSection />
+        </PageTransition>
       </div>
 
     </main>

@@ -1,6 +1,7 @@
 // src/app/contact/page.js
 
 import ContactSection from "@/components/server/ContactSection";
+import PageTransition from "@/components/client/PageTransition";
 
 export const metadata = {
   title:
@@ -70,5 +71,9 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-  return <ContactSection />;
+  return (
+    <PageTransition>
+      <ContactSection />
+    </PageTransition>
+  );
 }
