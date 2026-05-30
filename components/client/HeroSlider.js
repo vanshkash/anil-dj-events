@@ -55,7 +55,7 @@ export default function HeroSlider() {
       ))}
 
       {/* Overlay only desktop feel */}
-      <div className="absolute inset-0 bg-black/20 md:bg-black/65" />
+      <div className="absolute inset-0 bg-black/0 md:bg-black/65" />
 
     </div>
   );
