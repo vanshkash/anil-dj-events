@@ -45,7 +45,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/services/professional-dj-setup",
+    canonical: "https://www.anildjevents.in/services/professional-dj-setup",
   },
 
   robots: {
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "Premium DJ consoles, sound systems, intelligent lighting and luxury entertainment setups across Hapur & Delhi NCR.",
 
-    url: "https://anildjevents.in/services/professional-dj-setup",
+    url: "https://www.anildjevents.in/services/professional-dj-setup",
 
     siteName: "Anil DJ & Events",
 

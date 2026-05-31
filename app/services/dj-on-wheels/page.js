@@ -44,7 +44,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/services/dj-on-wheels",
+    canonical: "https://www.anildjevents.in/services/dj-on-wheels",
   },
 
   robots: {
@@ -66,7 +66,7 @@ export const metadata = {
     description:
       "Experience luxury DJ trolley setups, wedding barat DJ, LED lighting and powerful bass systems across Hapur & Delhi NCR.",
 
-    url: "https://anildjevents.in/services/dj-on-wheels",
+    url: "https://www.anildjevents.in/services/dj-on-wheels",
 
     siteName: "Anil DJ & Events",
 

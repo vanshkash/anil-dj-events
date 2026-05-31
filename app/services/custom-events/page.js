@@ -45,7 +45,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/services/custom-events",
+    canonical: "https://www.anildjevents.in/services/custom-events",
   },
 
   robots: {
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "Premium weddings, DJ nights, birthdays, corporate events and live event setups with professional sound & lighting across Hapur & NCR.",
 
-    url: "https://anildjevents.in/services/custom-events",
+    url: "https://www.anildjevents.in/services/custom-events",
 
     siteName: "Anil DJ & Events",
 

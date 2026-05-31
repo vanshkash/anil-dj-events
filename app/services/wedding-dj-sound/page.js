@@ -45,7 +45,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/services/wedding-dj-sound",
+    canonical: "https://www.anildjevents.in/services/wedding-dj-sound",
   },
 
   robots: {
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "Premium wedding DJ setups, luxury sound systems, LED walls and stage lighting services across Hapur & Delhi NCR.",
 
-    url: "https://anildjevents.in/services/wedding-dj-sound",
+    url: "https://www.anildjevents.in/services/wedding-dj-sound",
 
     siteName: "Anil DJ & Events",
 

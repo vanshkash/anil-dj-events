@@ -45,7 +45,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/services/equipment-rental",
+    canonical: "https://www.anildjevents.in/services/equipment-rental",
   },
 
   robots: {
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "Rent premium DJ, sound, lighting and stage setup equipment for weddings, concerts and live events across Hapur & Delhi NCR.",
 
-    url: "https://anildjevents.in/services/equipment-rental",
+    url: "https://www.anildjevents.in/services/equipment-rental",
 
     siteName: "Anil DJ & Events",
 

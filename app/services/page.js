@@ -29,7 +29,7 @@ description:
 ],
 
   alternates: {
-    canonical: "/services",
+    canonical: "https://www.anildjevents.in/services",
   },
 
   robots: {
@@ -51,7 +51,7 @@ description:
     description:
       "Professional DJ, sound, lighting, stage setup and live event services across Hapur, Noida, Ghaziabad & Delhi NCR.",
 
-    url: "https://anildjevents.in/services",
+    url: "https://www.anildjevents.in/services",
 
     siteName: "Anil DJ & Events",
 

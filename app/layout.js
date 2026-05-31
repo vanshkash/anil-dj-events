@@ -11,7 +11,7 @@ const geist = Geist({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://anildjevents.in"),
+  metadataBase: new URL("https://www.anildjevents.in"),
 
   title: "Anil DJ & Events | Professional Sound & Lighting Services in Hapur, Noida & NCR",
 
@@ -43,9 +43,11 @@ export const metadata = {
 
   creator: "Anil DJ & Events",
 
+  applicationName: "Anil DJ & Events",
+
   alternates: {
-    canonical: "/",
-  },
+  canonical: "https://www.anildjevents.in",
+},
 
   robots: {
   index: true,
@@ -59,13 +61,18 @@ export const metadata = {
   },
 },
 
+icons: {
+  icon: "/favicon.ico",
+  shortcut: "/favicon.ico",
+},
+
   openGraph: {
     title: "Anil DJ & Events | DJ & Sound Service in Hapur, Ghaziabad & NCR",
 
     description:
       "Book professional DJ, sound, stage and lighting services for weddings, parties and events across Hapur, Noida, Ghaziabad & Delhi NCR.",
 
-    url: "https://anildjevents.in",
+    url: "https://www.anildjevents.in",
 
     siteName: "Anil DJ & Events",
 
@@ -105,6 +112,52 @@ export default function RootLayout({ children }) {
       <body
         className={`${geist.className} overflow-x-hidden pt-[69px] bg-neutral-950 text-white antialiased`}
       >
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify([
+      {
+        "@context": "https://schema.org",
+
+        "@type": "WebSite",
+
+        name: "Anil DJ & Events",
+
+        alternateName: [
+          "Anil DJ and Events",
+          "Anil DJ Hapur"
+        ],
+
+        url: "https://www.anildjevents.in"
+      },
+
+      {
+        "@context": "https://schema.org",
+
+        "@type": "EntertainmentBusiness",
+
+        name: "Anil DJ & Events",
+
+        url: "https://www.anildjevents.in",
+
+        logo: "https://www.anildjevents.in/images/logo.webp",
+
+        image: "https://www.anildjevents.in/og-image.webp",
+
+        description:
+          "Professional DJ, sound, lighting and event services in Hapur, Noida, Ghaziabad and Delhi NCR.",
+
+        areaServed: [
+          "Hapur",
+          "Noida",
+          "Ghaziabad",
+          "Delhi NCR"
+        ]
+      }
+    ]),
+  }}
+/>
+
         {/* Global Background Glow */}
         <div className="fixed left-0 top-0 h-96 w-96 rounded-full bg-purple-600/20 blur-3xl" />
 

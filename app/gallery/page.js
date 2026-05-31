@@ -26,7 +26,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/gallery",
+    canonical: "https://www.anildjevents.in/gallery",
   },
 
   robots: {
@@ -48,7 +48,7 @@ export const metadata = {
     description:
       "Browse wedding DJ setups, stage lighting, sound systems and live event highlights across Hapur, Noida, Ghaziabad & NCR.",
 
-    url: "https://anildjevents.in/gallery",
+    url: "https://www.anildjevents.in/gallery",
 
     siteName: "Anil DJ & Events",
 

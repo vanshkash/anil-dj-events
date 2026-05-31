@@ -24,7 +24,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/contact",
+    canonical: "https://www.anildjevents.in/contact",
   },
 
   robots: {
@@ -46,7 +46,7 @@ export const metadata = {
     description:
       "Book professional DJ, wedding, sound and lighting services across Hapur, Noida, Ghaziabad & Delhi NCR.",
 
-    url: "https://anildjevents.in/contact",
+    url: "https://www.anildjevents.in/contact",
 
     siteName: "Anil DJ & Events",
 

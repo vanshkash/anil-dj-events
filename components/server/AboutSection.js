@@ -56,11 +56,11 @@ export default function AboutSection() {
 
             Today, the company is professionally managed by
             <span className="font-semibold text-white">
-              {" "}Vansh Kashyap
+              {" "}Mr. Anil Kashyap
             </span>
             {" "}and
             <span className="font-semibold text-white">
-              {" "}Shivam Kashyap
+              {" "}Mr. Shivam Kashyap
             </span>,
             continuing the legacy of quality, trust and modern event
             experiences for clients across Uttar Pradesh and NCR.

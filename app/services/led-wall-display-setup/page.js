@@ -45,7 +45,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/services/led-wall-display-setup",
+    canonical: "https://www.anildjevents.in/services/led-wall-display-setup",
   },
 
   robots: {
@@ -67,7 +67,7 @@ export const metadata = {
     description:
       "Professional LED wall display setups for weddings, live concerts, stage shows and corporate events across Hapur & Delhi NCR.",
 
-    url: "https://anildjevents.in/services/led-wall-display-setup",
+    url: "https://www.anildjevents.in/services/led-wall-display-setup",
 
     siteName: "Anil DJ & Events",
 

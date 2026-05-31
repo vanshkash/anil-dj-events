@@ -24,7 +24,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/about",
+    canonical: "https://www.anildjevents.in/about",
   },
 
   robots: {
@@ -46,7 +46,7 @@ export const metadata = {
     description:
       "Discover professional DJ, wedding, sound and lighting services by Anil DJ & Events across Hapur & Delhi NCR.",
 
-    url: "https://anildjevents.in/about",
+    url: "https://www.anildjevents.in/about",
 
     siteName: "Anil DJ & Events",
 

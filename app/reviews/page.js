@@ -24,7 +24,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/reviews",
+    canonical: "https://www.anildjevents.in/reviews",
   },
 
   robots: {
@@ -46,7 +46,7 @@ export const metadata = {
     description:
       "Explore real reviews and experiences from weddings, parties and live events managed by Anil DJ & Events across Hapur & NCR.",
 
-    url: "https://anildjevents.in/reviews",
+    url: "https://www.anildjevents.in/reviews",
 
     siteName: "Anil DJ & Events",
 
